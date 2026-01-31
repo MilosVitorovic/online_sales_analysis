@@ -3,13 +3,10 @@ from product_manager import ProductManager
 
 manager = ProductManager()
 
-p1 = Product("Laptop", 1000, 3)
-p2 = Product("Miš", 20, 10)
-p3 = Product("Tastatura", 50, 5)
+p1 = Product("Monitor", 200, 4)
+p2 = Product("Web kamera", 80, 6)
+p3 = Product("Slušalice", 120, 2)
 
 manager.add_product(p1)
 manager.add_product(p2)
 manager.add_product(p3)
-
-manager.show_products()
-print("Ukupna vrednost inventara:", manager.total_inventory_value())
